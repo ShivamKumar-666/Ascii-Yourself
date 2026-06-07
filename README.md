@@ -1,18 +1,6 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-
 # CyberAscii (Ascii Yourself)
 
 **A real-time webcam ASCII art generator with AI image analysis.**
-
-[![React](https://img.shields.io/badge/React-19.2-blue.svg)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-6.2-purple.svg)](https://vitejs.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
-[![Gemini API](https://img.shields.io/badge/Google%20Gemini-API-orange.svg)](https://ai.google.dev/)
-
-</div>
-
----
 
 ## 👁️ Overview
 
@@ -74,7 +62,3 @@
 3. Click the **Capture** button to freeze a frame and run an AI analysis on the image.
 
 ---
-
-<div align="center">
-  <i>"I see your true colors, shining through the matrix."</i>
-</div>
