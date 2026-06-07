@@ -1,7 +1,5 @@
 # CyberAscii (Ascii Yourself)
 
-**A real-time webcam ASCII art generator with AI image analysis.**
-
 ## 👁️ Overview
 
 **CyberAscii** transforms your real-time webcam feed into interactive, customizable ASCII art directly in the browser. Beyond just visual effects, it leverages the **Google Gemini API** to analyze captured frames and provide insightful, cyberpunk-themed descriptions of what it "sees" in the ASCII matrix.
@@ -60,5 +58,3 @@
    - Change the color mode for different vibes.
    - Adjust resolution and density for more or less detail.
 3. Click the **Capture** button to freeze a frame and run an AI analysis on the image.
-
----
