@@ -1,20 +1,80 @@
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# CyberAscii (Ascii Yourself)
+
+**A real-time webcam ASCII art generator with AI image analysis.**
+
+[![React](https://img.shields.io/badge/React-19.2-blue.svg)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.2-purple.svg)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
+[![Gemini API](https://img.shields.io/badge/Google%20Gemini-API-orange.svg)](https://ai.google.dev/)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 👁️ Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1SCMa-GxrevMhNTMLgp9C_R_J6ExzhCC3
+**CyberAscii** transforms your real-time webcam feed into interactive, customizable ASCII art directly in the browser. Beyond just visual effects, it leverages the **Google Gemini API** to analyze captured frames and provide insightful, cyberpunk-themed descriptions of what it "sees" in the ASCII matrix.
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- **Real-Time ASCII Rendering**: Transforms live camera feed into high-performance ASCII art.
+- **Dynamic Controls**: Adjust font size, brightness, contrast, color modes (e.g., matrix green), and density on the fly.
+- **AI Image Analysis**: Capture a frame and send it to the Gemini neural link for instant AI-powered analysis and threat-level assessment.
+- **Cyberpunk Aesthetic**: Fully immersive HUD and UI elements built with Tailwind CSS.
+- **Audio Feedback**: Immersive sound effects for scanning and analysis completion.
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend**: React 19, TypeScript, Vite
+- **Styling**: Tailwind CSS, Lucide React (Icons)
+- **AI Integration**: Google GenAI SDK (`@google/genai`)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- A Google Gemini API Key
+
+### Installation
+
+1. **Clone the repository or download the source code:**
+   ```bash
+   git clone <repository-url>
+   cd "Ascii yourself"
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables:**
+   Create a `.env.local` file in the root directory and add your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser:**
+   Navigate to `http://localhost:3000` (port defined in Vite configuration).
+
+## 🎮 Usage
+
+1. Grant camera permissions when prompted by your browser.
+2. Use the **Control Panel** to tweak the ASCII appearance:
+   - Change the color mode for different vibes.
+   - Adjust resolution and density for more or less detail.
+3. Click the **Capture** button to freeze a frame and run an AI analysis on the image.
+
+---
+
+<div align="center">
+  <i>"I see your true colors, shining through the matrix."</i>
+</div>
